@@ -886,7 +886,10 @@ body {
    
 </body>
  <script src="app.js"></script>
-	<script> let nextButton = document.getElementById('next');
+	<script> 
+		document.addEventListener("DOMContentLoaded", function () {
+
+  let nextButton = document.getElementById('next');
 let prevButton = document.getElementById('prev');
 let carousel = document.querySelector('.carousel');
 let listHTML = document.querySelector('.carousel .list');
@@ -927,8 +930,14 @@ seeMoreButtons.forEach((button) => {
 });
 backButton.onclick = function(){
     carousel.classList.remove('showDetail');
+
+});
+
+		
+		
 }</script>
 </html>
+
 
 
 
