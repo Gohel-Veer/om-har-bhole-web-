@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Om Har Bhole Farsan</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:Poppins, sans-serif;
+     background: url("background.png")  no-repeat center center/cover;
+      background-blur:15px; 
+      display:flex;
+
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+    }
+
+   
+    }
+
+
+
+    
+
+
+
+
+
+
+    @keyframes float{
+      to{transform:translate(19px,30px) scale(1.1)}
+    }
+
+    .info-box{
+      position:inline-block;
+      max-width:900px;
+      background: rgba(255,255,255,0.35);
+      padding:37px 40px;
+      border-radius:44px;
+      box-shadow:0 50px 60px rgba(0,0,0,0.25);
+      animation: fadeUp 3s ease forwards;
+backdrop-filter: blur(2px);   
+  -webkit-backdrop-filter: blur(15px); 
+  border: 1px solid rgba(255,255,255,0.3); 
+
+
+  animation: fadeUp 3s ease forwards;
+}
+    }
+
+.info-box .h1, .info-box .p{
+  text-shadow: 0 20px 20px rgba(255,255,255,0.6); /* subtle shadow to stand out */
+}
+
+    @keyframes fadeUp{
+      from{opacity:0; transform:translateY(30px)}
+      to{opacity:1; transform:translateY(0)}
+    }
+
+    h1{
+      margin-top:0;
+      font-size:42px;
+      font-weight:800;
+      text-shadow: -2px 0px 20px #0000009e;
+    }
+
+    p{
+      font-size:15px;
+      line-height:1.8;
+      color:#333;
+      animation: textFade 1s ease forwards;
+    }
+    p:nth-child(2){animation-delay:.2s}
+    p:nth-child(3){animation-delay:.4s}
+    p:nth-child(4){animation-delay:.6s}
+
+    @keyframes textFade{
+      from{opacity:0; transform:translateY(10px)}
+      to{opacity:1; transform:translateY(0)}
+    }
+
+    .tag{
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 9px 29px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    }
+
+    @media(max-width:768px){
+      .info-box{padding:28px}
+      h1{font-size:30px}
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="info-box">
+    <span class="tag">~: About Us :~ </span>
+    <h1>Om Har Bhole Farsan</h1>
+
+    <p>
+      Om Har Bhole Farsan Is A Trusted Name In Traditional Indian Snacks And Sweets,
+      Dedicated To Delivering Authentic Taste, Quality, And Freshness. Our journey
+      Is Rooted In Preserving The Rich Culinary Heritage Of Navsari Through
+      Time-Honored Recipes And Careful Preparation.
+    </p>
+
+    <p>
+      Every product Is Freshly Prepared Using Pure And Carefully Selected
+      Ingredients, Following Strict Hygiene Standards. From Classic Favorites Like
+      Patties , Milk Cake, Jalebi-Fafda, and Samosa To A Variety Of Seasonal Specialties,
+     Each Item Reflects Our Commitment To Taste And Consistency.
+    </p>
+
+    <p>
+      Customer Satisfaction Is At The Heart Of Everything We Do. We Believe Good
+      Food Creates Casting Memories, And We Continuously Strive To Offer Products
+      That Bring joy, Trust, And Satisfaction To Every Customer Who Chooses Us.
+    </p>
+
+    <p>
+      Whether It Is Daily Snacks, Festive Sweets, Or Treats For Special Occasions,
+      Om Har Bhole Farsan promises A Delightful And Authentic Experience In Every
+      Bite.
+    </p>
+  </div>
+
+</body>
+</html>
