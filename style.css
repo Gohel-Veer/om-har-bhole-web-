@@ -95,6 +95,8 @@ header nav a{
     top: 50%;
     transform: translateY(-50%);
     transition: right 1.5s;
+     max-width: 100%;
+    height: auto;
 }
 
 .carousel .list .item .introduce{
@@ -410,7 +412,8 @@ header nav a{
 @media screen and (max-width: 767px){
     /* mobile */
     .carousel{
-        height: 600px;
+        height: 100vh;
+        height:auto;
     }
     .carousel .list .item{
         width: 100%;
@@ -441,4 +444,5 @@ header nav a{
         width: max-content;
         float: right;
     }
+
 }
